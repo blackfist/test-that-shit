@@ -10,3 +10,4 @@ outfile.close()
 
 repo.git.add('.')
 repo.git.commit('-a', '-m Autocommit')
+repo.git.push()
